@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Weather } from "./Weather"
+import { Weather } from "../components/Weather"
 
 import type { FC } from "react"
 
