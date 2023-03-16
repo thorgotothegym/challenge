@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather Renders Component According To Snapshot 1`] = `
+<div>
+  <div
+    data-testid="weatherID"
+  >
+    <h1 />
+    <p>
+       Celcius
+    </p>
+    <img
+      alt="Icon"
+    />
+  </div>
+</div>
+`;
+
+exports[`Weather component id should be found data-testid 1`] = `
+<div>
+  <div
+    data-testid="weatherID"
+  >
+    <h1 />
+    <p>
+       Celcius
+    </p>
+    <img
+      alt="Icon"
+    />
+  </div>
+</div>
+`;

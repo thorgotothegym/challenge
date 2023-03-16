@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const Weather = (props: any) => {
+export const Weather = (props: any) => {
   const [info, setInfo] = React.useState({
     city: null,
     temp: null,
@@ -43,14 +43,12 @@ const Weather = (props: any) => {
   }, [props.city]);
 
   return (
-    <>
+    <div data-testid="weatherID">
       <h1>{info.city}</h1>
 
       <p>{info.temp && ~~info.temp} Celcius</p>
 
       <img src={info.icon as unknown as string} alt="Icon" />
-    </>
+    </div>
   );
 };
-
-export { Weather };
